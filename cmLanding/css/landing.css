@@ -156,3 +156,17 @@ body {
     margin-top: 0px;
     /* filter: blur(3px) */
   }
+  #footer a{
+    text-decoration: none;
+    color: whitesmoke;
+    }
+  #footer h4{
+      color: aqua;
+  }
+  #footer a:hover{
+    color:maroon;
+  }
+  .service_button .btn a:{
+    background-color: black;
+
+  }

@@ -29,9 +29,22 @@
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
           <li class="active"><a href="#">Home</a></li>
-          <li class="active"><a href="#">Page 1</a></li>
-          <li class="active"><a href="#">Page 2</a></li> 
-          <li class="active"><a href="#">Page 3</a></li> 
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Services
+            <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">XML to CSV</a></li>
+              <li><a href="#">XML to JSON</a></li>
+              <li><a href="#">JSON to XML</a></li>
+              <li><a href="#">JSON to CSV</a></li>
+              <li><a href="#">CSV to JSON</a></li>
+              <li><a href="#">CSV to XML</a></li>
+
+
+            </ul>
+          </li>
+          <li class="active"><a href="#">Documentation</a></li> 
+          <li class="active"><a href="#">API</a></li> 
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li class="active"><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
@@ -54,32 +67,147 @@
       </div>
     </div>
     <!-- About Us  -->
-    <div class="row" style="">
-      <div class="col-md-offset-3 col-md-3 col-md-offset-3">  
-        <img class="img img-responsive img-thumbnail" src="../images/cm_logo.png" alt="Convert Master" style="height: 80%; width: 80%; margin: 10% 10%;;box-sizing: content-box;">
-      </div>
-    </div>
     <div class="row">
-      <div class="col-md-offset-2 col-md-8 col-md-offset-2" style="background: darkgrey;height: 100%">
+      <div class="col-md-offset-1 col-md-2">  
+        <img class="img img-responsive" src="../images/cm_logo.png" alt="Convert Master" style="height: 200px;
+        width: 195px;
+        margin: 10% 0%;
+        box-sizing: border-box;">
+      </div>height:10px;width:10px;box-sizing: border-box;
+      <div class="col-md-8 col-md-onset-1" style="background: darkgrey;height: 50vh">
         
           <div class="row">
-            <h1>About Us</h1>
+            <h1 class="text-center">About Us</h1>
           </div>
-          <div class="row">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel quo beatae consequatur 
+          <div class="row" style="height: 100%;margin: 0% 1%;" >
+            <p class="bg-info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel quo beatae consequatur 
               veritatis mollitia iste praesentium, facilis inventore dolores magnam exercitationem. Exercitationem, quasi suscipit itaque autem provident minima perspiciatis. 
               Rem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur accusantium fugit sed reiciendis vero 
               iusto perferendis modi quibusdam ut velit eligendi libero explicabo nam quas facilis nulla, 
               dolor rem
             </p>
           </div>
-        
+      </div>
+    </div>
+    <!-- Services -->
+    <div class="row" style="margin-top: 30px; margin-bottom:30px;background-color:#d83838">
+      <div class="col-md-offset-4 col-md-4 col-md-onset-4">
+        <h1 class="text-center ">Services</h1>
+      </div>
+    </div>
+    <div class="container service_button" style="padding-top: 50px">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="row">
+                  
+                  <div class="col-md-offset-1 col-md-10 col-md-onset-1" style="">
+                      <a class="btn btn-success text-center btn-lg"href="" style="width: 100%;margin-top:10px;"> XML to CSV</a>
+                  </div>
+                  
+                </div>
+            </div>
+          <div class="col-md-4">
+            <div class="row">
+              
+              <div class="col-md-offset-1 col-md-10 col-md-onset-1" style="">
+                  <a class="btn btn-success text-center btn-lg"href="" style="width: 100%;margin-top:10px;"> XML to CSV</a>
+              </div>
+              
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="row">
+              
+              <div class="col-md-offset-1 col-md-10 col-md-onset-1" style="">
+                <a class="btn btn-success text-center btn-lg"href="" style="width: 100%;margin-top:10px;"> XML to CSV</a>
+              </div>
+              
+            </div>
+          </div>
+          
+    
+        </div>
 
+    </div>
+    
+    <div class="container service_button">
+        <div class="row">
+        <div class="col-md-4">
+            <div class="row">
+              
+              <div class="col-md-offset-1 col-md-10 col-md-onset-1" style="">
+                  <a class="btn btn-success text-center btn-lg"href="" style="width: 100%;margin-top:10px;"> XML to CSV</a>
+              </div>
+              
+            </div>
+        </div>
+      <div class="col-md-4">
+        <div class="row">
+          
+          <div class="col-md-offset-1 col-md-10 col-md-onset-1" style="">
+              <a class="btn btn-success text-center btn-lg"href="" style="width: 100%;margin-top:10px;"> XML to CSV</a>
+          </div>
+          
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="row">
+          
+          <div class="col-md-offset-1 col-md-10 col-md-onset-1" style="">
+            <a class="btn btn-success text-center btn-lg"href="" style="width: 100%;margin-top:10px;"> XML to CSV</a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    
+      
+
+    </div>
+  </div>
+  <!-- footer -->
+  <div class="container-fluid" style="background-color: black;    margin-top: 116px;
+  padding-top: 25px;">
+    <div class="container">
+      <div class="row" id="footer">
+        <div class="col-md-offset-1 col-md-2">
+          <h4>Services</h4> 
+          <hr style="color: blue">
+          <ul class="list-unstyled">
+            <a href="">XML to JSON</a><br>
+            <a href="">XML to JSON</a><br>
+            <a href="">XML to JSON</a><br>
+            <a href="">XML to JSON</a><br>
+            <a href="">XML to JSON</a><br>
+            <a href="">XML to JSON</a><br>
+
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <h4>Help</h4> 
+          <hr style="color: yellow">
+          <ul class="list-unstyled">
+              <a href="">Documentation</a><br>
+              <a href="">FAQs</a><br>
+              <a href="">API</a><br>
+          </ul>
+        </div>
+        <div class="col-md-2 col-onset-3">
+          <h4>Contact</h4>
+          <hr style="background-color: green">
+          <ul class="list-unstyled">
+              <a href="">Contact Us</a>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h5 class="text-center">Made with <span class="text-danger">love</span> by team D'Coders | <span class="text-danger">Convert Master</span></h5>
+          <hr>
+        </div>
       </div>
     </div>
   </div>
-  <!--  -->
-        
     
 </body>
 </html>
